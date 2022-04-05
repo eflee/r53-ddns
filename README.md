@@ -1,7 +1,8 @@
 # r53-ddns
 Simple DynamicDNS Script (and Container) for Route53 
 
-Uusage: ddns.py [-h] [-q IP_QUERY_URL] -z ZONE_ID -d FQDN -a AWS_ACCESS_KEY_ID -s AWS_SECRET_ACCESS_KEY
+```
+Usage: ddns.py [-h] [-q IP_QUERY_URL] -z ZONE_ID -d FQDN -a AWS_ACCESS_KEY_ID -s AWS_SECRET_ACCESS_KEY
 
 Update a AWS Route53 record with the current internet IP. Accepts all arguments as command-line flags or environment variables.
 
@@ -16,3 +17,4 @@ options:
                         AWS Access Key ID
   -s AWS_SECRET_ACCESS_KEY, --aws-secret-access-key AWS_SECRET_ACCESS_KEY
                         AWS Secret Access Key
+```
