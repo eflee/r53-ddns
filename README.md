@@ -1,4 +1,6 @@
 # r53-ddns
+[![Docker](https://github.com/eflee/r53-ddns/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/eflee/r53-ddns/actions/workflows/docker-publish.yml)
+
 Simple DynamicDNS Script (and Container) for Route53 
 
 ```
