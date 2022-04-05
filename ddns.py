@@ -43,8 +43,8 @@ def main():
         sys.exit(0)
 
     # Change needed, upsert the record
-    changes = ResourceRecordSets(conn, ZONE_ID)
-    record = changes.add_change("UPSERT", DOMAIN_NAME, "A", 10)
+    changes = ResourceRecordSets(conn, args.zone_id)
+    record = changes.add_change("UPSERT", args.fqdn, "A", 10)
     record.add_value(ip)
 
     #commit
