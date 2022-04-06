@@ -1,5 +1,7 @@
 # r53-ddns
 [![Docker](https://github.com/eflee/r53-ddns/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/eflee/r53-ddns/actions/workflows/docker-publish.yml)
+[![Dependency Review](https://github.com/eflee/r53-ddns/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/eflee/r53-ddns/actions/workflows/dependency-review.yml)
+[![CodeQL](https://github.com/eflee/r53-ddns/actions/workflows/codeql.yml/badge.svg)](https://github.com/eflee/r53-ddns/actions/workflows/codeql.yml)
 
 Simple DynamicDNS Script (and Container) for Route53 
 
