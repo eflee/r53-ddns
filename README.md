@@ -1,5 +1,10 @@
 # r53-ddns
 
+[![Tests](https://github.com/eflee/r53-ddns/actions/workflows/test.yml/badge.svg)](https://github.com/eflee/r53-ddns/actions/workflows/test.yml)
+[![Version Check](https://github.com/eflee/r53-ddns/actions/workflows/version-check.yml/badge.svg)](https://github.com/eflee/r53-ddns/actions/workflows/version-check.yml)
+[![PyPI](https://img.shields.io/pypi/v/r53-ddns)](https://pypi.org/project/r53-ddns/)
+[![Python Version](https://img.shields.io/pypi/pyversions/r53-ddns)](https://pypi.org/project/r53-ddns/)
+
 Simple Dynamic DNS Script for AWS Route53
 
 Automatically updates your Route53 DNS records with your current public IP address. Supports both IPv4 (A records) and IPv6 (AAAA records).
