@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ddns:
+    build: .
+    image: r53-ddns:latest
+    container_name: r53-ddns
+    restart: unless-stopped
+    environment:
+      - ZONE_ID=YOUR_HOSTED_ZONE_ID
+      - FQDN=home.example.com.
+      - RECORD_TYPES=A,AAAA
+      - TTL=300
+      # Uncomment if not using IAM role:
+      # - AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+      # - AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
